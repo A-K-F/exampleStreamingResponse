@@ -1,0 +1,26 @@
+{
+  "name": "exampleStreamingResponse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-K-F/exampleStreamingResponse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-K-F/exampleStreamingResponse/issues"
+  },
+  "homepage": "https://github.com/A-K-F/exampleStreamingResponse#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  }
+}
