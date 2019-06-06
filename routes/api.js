@@ -4,9 +4,9 @@
 const router = require('express').Router();
 
 // LOAD SCRIPTS
-const placeholder = require('./api/placeholder');
+const streaming = require('./api/streaming');
 
 // ROUTES
-router.use('/placeholder', placeholder);
+router.use('/streaming', streaming);
 
 module.exports = router;
