@@ -25,7 +25,7 @@ async function test() {
 	});
 
 	stream.on('end', () => {
-		// PLACEHOLDER
+		console.log('Connection closed.');
 	});
 };
 
